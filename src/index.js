@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+
 const TodoList = () => {
+    const items = ['Learn react','Build Awesome App']
+
     return (
         <ul>
-            <li>Learn react</li>
-            <li>Build Awesome App</li>
+            <li>{items[0]}</li>
+            <li>{items[1]}</li>
         </ul>
     )
 }
